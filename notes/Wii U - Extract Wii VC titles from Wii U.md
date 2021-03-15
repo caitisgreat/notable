@@ -2,13 +2,10 @@
 tags: [Notebooks/Retro Gaming, Wii, Wii U]
 title: Wii U - Extract Wii VC titles from Wii U
 created: '2021-03-15T17:22:09.460Z'
-modified: '2021-03-15T19:20:56.238Z'
+modified: '2021-03-15T19:31:43.044Z'
 ---
 
 # Wii U - Extract Wii VC titles from Wii U
-
-Created: 2021-03-15
-Last Modified: 2021-03-15
 
 **Originally from [here](https://forum.wii-homebrew.com/index.php/Thread/59652-TuT-English-How-to-dump-and-convert-an-eShop-Wii-game-into-an-ISO-for-Dolphin/)**
 
