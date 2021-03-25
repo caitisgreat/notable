@@ -2,14 +2,14 @@
 tags: [Notebooks/Retro Gaming]
 title: Recapping
 created: '2021-03-18T14:54:16.040Z'
-modified: '2021-03-18T14:58:04.430Z'
+modified: '2021-03-25T16:32:21.653Z'
 ---
 
 # Recapping
 
 ## Systems Recommended for
 
-Originally: https://twitter.com/Voultar/status/1279105324872609792?s=20
+Source: [Voultar](https://twitter.com/Voultar/status/1279105324872609792)
 As of Jul 3, 2020
 
 ```
