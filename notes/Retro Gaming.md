@@ -2,7 +2,7 @@
 tags: [Notebooks/Retro Gaming]
 title: Retro Gaming
 created: '2021-03-15T19:40:48.828Z'
-modified: '2021-03-25T16:27:56.513Z'
+modified: '2021-04-01T23:47:02.319Z'
 ---
 
 # Retro Gaming
@@ -18,6 +18,7 @@ modified: '2021-03-25T16:27:56.513Z'
 ### Homebrew
 * [Jailbreak PS3 & Enable Custom Firmware](Jailbreak PS3 & Custom Firmware.md)
 * [Dumping PS3 Discs using CFW](Dumping PS3 Discs using CFW.md)
+* [Dumping PS3 content from PSN](Dumping PS3 content from PSN.md)
 
 ## Wii U
 
