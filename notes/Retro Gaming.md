@@ -2,7 +2,7 @@
 tags: [Notebooks/Retro Gaming]
 title: Retro Gaming
 created: '2021-03-15T19:40:48.828Z'
-modified: '2021-04-01T23:47:02.319Z'
+modified: '2021-05-13T21:39:10.589Z'
 ---
 
 # Retro Gaming
@@ -11,9 +11,13 @@ modified: '2021-04-01T23:47:02.319Z'
 
 [Retro Gaming in the United States](Retro Gaming in the United States.md) - how to find useful device in the United States for retro gaming
 
-[Recapping](Recapping.md) - Details about retro gaming systems' with capacitors reaching EOL and how to replace them.
+[Recapping](Recapping.md)- Details about retro gaming systems' with capacitors reaching EOL and how to replace them.
 
-## PS3
+## PlayStation 2
+
+* [Cleaning & Maintaining DualShock 2 Controllers](Cleaning & Maintaining DualShock 2 Controllers.md)
+
+## PlayStation 3
 
 ### Homebrew
 * [Jailbreak PS3 & Enable Custom Firmware](Jailbreak PS3 & Custom Firmware.md)
