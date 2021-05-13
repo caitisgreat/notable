@@ -2,7 +2,7 @@
 tags: [Notebooks/Retro Gaming]
 title: Retro Gaming
 created: '2021-03-15T19:40:48.828Z'
-modified: '2021-05-13T21:39:10.589Z'
+modified: '2021-05-13T22:00:30.561Z'
 ---
 
 # Retro Gaming
@@ -14,6 +14,8 @@ modified: '2021-05-13T21:39:10.589Z'
 [Recapping](Recapping.md)- Details about retro gaming systems' with capacitors reaching EOL and how to replace them.
 
 ## PlayStation 2
+
+### Accessories
 
 * [Cleaning & Maintaining DualShock 2 Controllers](Cleaning & Maintaining DualShock 2 Controllers.md)
 
