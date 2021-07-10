@@ -1,7 +1,8 @@
 ---
+tags: [Notebooks/Retro Gaming]
 title: Dumping PS3 content from PSN
 created: '2021-04-01T22:46:46.620Z'
-modified: '2021-04-01T23:59:05.548Z'
+modified: '2021-07-10T21:48:23.240Z'
 ---
 
 # Dumping PS3 content from PSN
