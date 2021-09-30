@@ -2,7 +2,7 @@
 tags: [Notebooks/Retro Gaming]
 title: Retro Gaming
 created: '2021-03-15T19:40:48.828Z'
-modified: '2021-05-13T22:00:30.561Z'
+modified: '2021-06-24T05:27:52.370Z'
 ---
 
 # Retro Gaming
@@ -12,6 +12,11 @@ modified: '2021-05-13T22:00:30.561Z'
 [Retro Gaming in the United States](Retro Gaming in the United States.md) - how to find useful device in the United States for retro gaming
 
 [Recapping](Recapping.md)- Details about retro gaming systems' with capacitors reaching EOL and how to replace them.
+
+## Archiving
+
+[CSO Format](CSO format.md)
+[Using MAME's chdman to backup CD-ROMs](Using MAME's chdman to backup CD-ROMs.md)
 
 ## PlayStation 2
 
