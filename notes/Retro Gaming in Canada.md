@@ -1,8 +1,6 @@
 ---
-tags: [Notebooks/Retro Gaming]
-title: Retro Gaming in Canada
+tags: [RetroGaming]
 created: '2021-03-15T20:08:22.842Z'
-modified: '2021-03-15T20:20:28.725Z'
 ---
 
 # Retro Gaming in Canada
