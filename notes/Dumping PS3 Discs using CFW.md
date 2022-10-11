@@ -1,15 +1,13 @@
 ---
-tags: [Notebooks/Retro Gaming]
-title: Dumping PS3 Discs using CFW
+tags: [RetroGaming/Playstation]
 created: '2021-03-23T17:24:19.278Z'
-modified: '2021-03-25T16:31:21.038Z'
 ---
 
 # Dumping PS3 Discs using CFW
 
 Source: [RPCS3 Wiki](https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games)
 
-Requirements: [CFW or HEN](Jailbreak PS3 & Custom Firmware.md)
+Requirements: [CFW or HEN](Jailbreak%20PS3%20and%20Add%20Custom%20Firmware.md)
 
 This method is the more reliable method of dumping disc games as it is guaranteed to work with every PS3 game disc in existence. However, during the dumping process, you will be limited to the PS3 Blu-ray reader's transfer speeds so the process may take longer than doing the same through a PC. If you have doubts on installing or using any of the tools mentioned below, please read [r/ps3homebrew's wiki](https://www.reddit.com/r/ps3homebrew/wiki/multiman).
 
