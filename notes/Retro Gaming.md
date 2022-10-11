@@ -1,37 +1,32 @@
 ---
-tags: [Notebooks/Retro Gaming]
-title: Retro Gaming
+tags: [RetroGaming]
 created: '2021-03-15T19:40:48.828Z'
-modified: '2021-06-24T05:27:52.370Z'
 ---
+# Overview
+[[Retro Gaming in Canada]] - how to find useful devices in Canada for retro gaming
 
-# Retro Gaming
+[[Retro Gaming in the United States]] - how to find useful device in the United States for retro gaming
 
-[Retro Gaming in Canada](Retro Gaming in Canada.md) - how to find useful devices in Canada for retro gaming
+[[Recapping]] - Details about retro gaming systems' with capacitors reaching EOL and how to replace them.
 
-[Retro Gaming in the United States](Retro Gaming in the United States.md) - how to find useful device in the United States for retro gaming
+# Preservation
 
-[Recapping](Recapping.md)- Details about retro gaming systems' with capacitors reaching EOL and how to replace them.
-
-## Archiving
-
-[CSO Format](CSO format.md)
-[Using MAME's chdman to backup CD-ROMs](Using MAME's chdman to backup CD-ROMs.md)
-
+* [[CSO format]] - Compressed ISO format
+* [[Using MAME's chdman to backup CD-ROMs]] - CHD is a lossless compression format originally developed for MAME, for the hard-drive contents of certain arcade machines. It has since been used in several other emulators as a means of storing CD-ROM game data. 
+# Systems
 ## PlayStation 2
 
 ### Accessories
 
-* [Cleaning & Maintaining DualShock 2 Controllers](Cleaning & Maintaining DualShock 2 Controllers.md)
+* [[Cleaning and Maintaining DualShock 2 Controllers]]
 
 ## PlayStation 3
 
 ### Homebrew
-* [Jailbreak PS3 & Enable Custom Firmware](Jailbreak PS3 & Custom Firmware.md)
-* [Dumping PS3 Discs using CFW](Dumping PS3 Discs using CFW.md)
-* [Dumping PS3 content from PSN](Dumping PS3 content from PSN.md)
+* [[Jailbreak PS3 and Add Custom Firmware]]
+* [[Dumping PS3 Discs using CFW]]
+* [[Dumping PS3 content from PSN]]
 
 ## Wii U
-
 ### Homebrew 
-* [Extract Wii VC titles from Wii U](Extract Wii VC titles from Wii U.md)
+* [[Extract Wii VC titles from Wii U]]
