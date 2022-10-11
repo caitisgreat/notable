@@ -1,8 +1,6 @@
 ---
-tags: [Notebooks/Retro Gaming, Wii, Wii U]
-title: Extract Wii VC titles from Wii U
+tags: [RetroGaming/WiiU, RetroGaming/Wii]
 created: '2021-03-15T17:22:09.460Z'
-modified: '2021-03-15T20:04:35.966Z'
 ---
 
 # Extract Wii VC titles from Wii U
