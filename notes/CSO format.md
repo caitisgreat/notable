@@ -1,93 +1,21 @@
 ---
-tags: [Notebooks/Retro Gaming]
-title: CSO format
-created: '2021-06-23T17:47:37.775Z'
-modified: '2021-06-24T05:27:17.753Z'
+tags: [RetroGaming/Restoration, RetroGaming/Playstation]
+created: '2021-05-13T21:26:50.957Z'
 ---
+# Repairs and Maintenance
 
-# CSO format
+DualShock 2 controllers consist of weak plastic housings and membrane-based connectors.  In other words, they're a total pain.  Additionally, DualShock 2 repairs are difficult because many of the internal PCB variants are difficult to track down.  There's numerous revisions controllers too, despite some having the same model numbers.  The folks over at Shmups have gone through some effort to catalog these revisions.
 
+* [Need Help Documenting the Many Dualshock 2 PCB Versions](https://shmups.system11.org/viewtopic.php?f=6&t=60935)
+* [Differences Between Dualshock 2/3 Revisions?](https://shmups.system11.org/viewtopic.php?f=6&t=60645)
 
-The original CSO format was created by BOOSTER.
+While not specific to DualShock controllers, there's quite a bit of information regarding different variants on this site.
 
-This document includes an experimental v2 format of CSO, proposed by Unknown W. Brackets.
+[PCB Diagrams](http://www.slagcoin.com/joystick/pcb_wiring.html)
 
-https://github.com/unknownbrackets/maxcso/blob/master/README_CSO.md
+# Cleaning 
 
-## Overview
+[Odd Tinkering](https://www.youtube.com/channel/UCf_suVrG2dA5BTjJhNLwthQ) on YouTube has restored a number of DualShock variants.  In these videos, you can see that the PCBs and the connectors differ.  I recommend reviewing both videos in order to see how the parts come away from each other.  
 
-
-A CSO file consists of a file header, index section, and data section.
-
-Typically, the file extension .cso is used.
-
-
-## Format (version 1)
-
-
-The header is as follows (little endian):
-```
-	char[4]  magic;             // Always "CISO".
-	uint32_t header_size;       // Does not always contain a reliable value.
-	uint64_t uncompressed_size; // Total size of original ISO.
-	uint32_t block_size;        // Size of each block, usually 2048.
-	uint8_t  version;           // May be 0 or 1.
-	uint8_t  index_shift;       // Indicates left shift of index values.
-	uint8_t  unused[2];         // May contain any values.
-```
-Following that are index entries, which are each a uint32_t (little endian).  The number of
-index entries can be found by taking `ceil(uncompressed_size / block_size) + 1`.
-
-The lower 31 bits of each index entry, when shifted left by `index_shift`, indicate the
-position within the file of the block's compressed data.  The length of the block is the
-difference between this entry's offset and the following index entry's offset value.
-
-Note that this size may be larger than the compressed or uncompressed data, if `index_shift` is
-greater than 0.  The space between blocks may be padded with any byte, but NUL is recommended.
-
-Note also that this means index entries must be incrementing.  Reordering or deduplication of
-blocks is not supported.
-
-The high bit of the index entry indicates whether the block is uncompressed.
-
-When compressed, blocks are compressed using the raw [deflate][] algorithm, with window size
-being 15 (when using zlib, specify -15 for no zlib header.)
-
-The final index entry indicates the end of the data segment and normally EOF.
-
-
-## Format (version 2)
-
-
-EXPERIMENTAL
-
-The header is more strictly defined:
-```
-  char[4]  magic;             // Always "CISO".
-	uint32_t header_size;       // Must always be 0x18.
-	uint64_t uncompressed_size; // Total size of original ISO.
-	uint32_t block_size;        // Size of each block.
-	uint8_t  version;           // Must be 2.
-	uint8_t  index_shift;       // Indicates left shift of index values.
-	uint8_t  unused[2];         // Must be 0.
-```
-The index data follows the same format as version 1, but the interpretation of the size and high
-bit is handled differently.
-
-In version 2, when the length of a compressed block (that is, the difference between two index
-entry offset values) is >= `block_size`, the block must not be compressed.
-
-Note again that when `index_shift` is greater than 0, the size may include additional padding.
-If the compressed size plus this padding would result in `block_size` or more bytes, the data
-must not be compressed (or decompressed.)  This won't result in any observed file size
-difference, because the padding would have been wasted bytes anyway.
-
-When the size of the compressed block is less than `block_size`, the data is always compressed.
-The high bit of the index entry indicates which compression method has been used.  When it is
-set, the data is compressed with [lz4][], otherwise it is compressed with [deflate][].
-
-The final index entry must not have the high bit set.
-
-
-[lz4]: https://code.google.com/p/lz4/
-[deflate]: https://www.ietf.org/rfc/rfc1951.txt
+* DualShock 2: [Restoring a pair of Junk DualShock 2 Controllers for my Playstation 2](https://www.youtube.com/watch?v=1y8KIjjAtFc)
+* DualShock (PSone Variant): [Restoring the original DualShock for my restored PlayStation 1](https://www.youtube.com/watch?v=Vnqy6dFW1rQ)
