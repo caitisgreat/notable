@@ -1,12 +1,11 @@
 ---
 attachments: [Clipboard_2021-03-23-10-50-53.png]
-tags: [Notebooks/Retro Gaming]
-title: Jailbreak PS3 & Custom Firmware
+aliases: [CFW or HEN]
+tags: [RetroGaming/Playstation, RetroGaming/Preservation]
 created: '2021-03-23T17:22:42.016Z'
-modified: '2021-03-25T16:30:56.806Z'
 ---
 
-# Jailbreak PS3 & Custom Firmware
+# Jailbreak PS3 & Add Custom Firmware
 
 [ps3xploit](http://ps3xploit.com) - [Official Forums](https://www.psx-place.com/forums/PS3Xploit/)
 
@@ -28,7 +27,7 @@ HEN stands for Homebrew ENabler. it also consists of additional functions relati
 
 **CFW** - Stands for Custom Firmware. It replaces the actual firmware of your PS3 (usually named OFW) and add several features to your system such as PS3 Backup Support, PS2 ISO Support, PSP ISO Support Game Modding Ability, XMB Modding and of course Homebrew Support with brings many more additional functions.  When installed, it's enabled by default when you launch your PS3. Not all PS3 systems are CFW compatible (see link, factory min firmware version of 3.56 and lower). Most famous/stable CFW are :REBUG CFW., HABIB's brand (StarBug) & FERROX are some of the top flavors.
 
-![Comparison Chart](../attachments/Clipboard_2021-03-23-10-50-53.png)
+![Comparison Chart](Clipboard_2021-03-23-10-50-53.png)
 
 ## Tutorials
 
